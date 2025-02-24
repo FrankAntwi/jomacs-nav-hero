@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-image: url('./images/hero_1.png');
+  background-size: cover;
+  background-position: center;
+  min-height: 230vh;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to bottom, #e6f0ff, #ffffff);
+  padding: 2rem 1rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  margin: 2rem;
+}
+
+.logo img {
+  width: 150px;
+  height: 50px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+.nav-links a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.nav-links a:hover {
+  color: #666666;
+}
+
+.talk-btn {
+  background: linear-gradient(to right, #4a90e2, #8a2be2);
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  outline: none;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.talk-btn:hover {
+  opacity: 0.9;
+}
+
+.main-container {
+  min-height: 100vh;
+  padding: 6rem 2rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.text-content {
+  flex: 1;
+  padding-right: 2rem;
+}
+
+h1 {
+  display: flex;
+  flex-direction: column;
+  font-size: 4.5rem;
+  font-weight: bold;
+  color: #003366;
+  white-space: pre-wrap;
+}
+
+h1 .light-blue {
+  margin-top: 1rem;
+  color: #3399ff;
+}
+
+p {
+  color: #666666;
+  font-size: 1.05rem;
+  margin-top: 1rem;
+  max-width: 600px;
+}
